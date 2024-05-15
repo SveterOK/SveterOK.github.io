@@ -3,6 +3,7 @@ nav:
  - Home: index.md
  - Trading messages:
    - NewOrderSingle: NewOrderSingle.md
+   - ExecutionReport: ExecutionReport.md
  - Message components:
    - Standard header: StandardHeader.md
 theme: readthedocs
