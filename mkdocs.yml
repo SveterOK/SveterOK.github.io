@@ -1,0 +1,12 @@
+site_name: FIX specification
+nav:
+ - Home: index.md
+ - Trading messages:
+   - NewOrderSingle: NewOrderSingle.md
+ - Message components:
+   - Standard header: StandardHeader.md
+theme: readthedocs
+markdown_extensions:
+ - tables
+ - markdown_include.include:
+    base_path: docs
