@@ -6,7 +6,7 @@ nav:
    - ExecutionReport: ExecutionReport.md
  - Message components:
    - Standard header: StandardHeader.md
- - Document changelog:ver.md
+ - Document changelog: ver.md
 theme: readthedocs
 markdown_extensions:
  - tables
