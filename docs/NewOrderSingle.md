@@ -35,4 +35,4 @@ Tag    | Tag name    |   Description | Required| Data type
  59| `TimeInForce`| How long the order remains in effect. | N| char
   10|`CheckSum`|Checksum for message content|Y|string
   
-{!ver.md!}
+
