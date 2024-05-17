@@ -2,7 +2,7 @@
 
 This message is sent by a FIX client to cancel an existing order.
 
-Only orders whose current status (`OrdStatus`) is *New* or *PartiallyFilled* can be cancelled.
+Only orders which current status (`OrdStatus`) is *New* or *PartiallyFilled* can be cancelled.
 
 In response, the system either sends an **ExecutionReport** message with `OrdStatus` = 4 to confirm the cancellation or an **CancelReject** message to reject the request.
 
