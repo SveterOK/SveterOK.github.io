@@ -4,6 +4,7 @@ nav:
  - Trading messages:
    - NewOrderSingle: NewOrderSingle.md
    - ExecutionReport: ExecutionReport.md
+   - CancelRequest: CancelRequest.md
  - Message components:
    - Standard header: StandardHeader.md
  - Document changelog: ver.md
