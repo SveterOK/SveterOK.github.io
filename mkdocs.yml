@@ -1,4 +1,4 @@
-site_name: FIX specification
+site_name: FIX platrom specification
 nav:
  - Home: index.md
  - Trading messages:
@@ -7,9 +7,27 @@ nav:
    - CancelRequest: CancelRequest.md
  - Message components:
    - Standard header: StandardHeader.md
+   - Repeating groups: RepeatingGroups.md
  - Document changelog: ver.md
-theme: readthedocs
+theme:
+   name: material
+   palette:
+     - scheme: default
+       toggle:
+         icon: material/brightness-7
+         name: Switch to dark
+       primary: teal
+     - scheme: slate
+       toggle:
+         icon: material/brightness-4
+         name: Switch to light
+       primary: teal
+   features: 
+    - navigation.tabs
 markdown_extensions:
  - tables
+ - admonition
  - markdown_include.include:
     base_path: docs
+extra_css:
+   - stylesheets/extra.css
