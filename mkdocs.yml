@@ -27,7 +27,5 @@ theme:
 markdown_extensions:
  - tables
  - admonition
- - markdown_include.include:
-    base_path: docs
 extra_css:
    - stylesheets/extra.css
