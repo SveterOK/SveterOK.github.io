@@ -1,0 +1,19 @@
+name: Publish to Github Pages
+on: 
+  push:
+     brunches: [main]
+jobs:
+  build:
+     runs-on: ubuntu-lates
+     steps:
+       - name: Checkout repository
+         uses: actions/checkout@v2
+       - name: Install mkdocs
+         uses: sudo pip install mkdocs
+       - name: Process Documents
+         run:  mkdocs build
+       - name: Publish to Github Pages
+         uses: peaceiris/actions-gh-pages@v3
+         with:
+            github_token: ${{ secrets.GITHUB_TOKEN }}
+            publish_dir: site
