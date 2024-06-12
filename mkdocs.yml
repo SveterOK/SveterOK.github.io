@@ -12,6 +12,8 @@ nav:
  - ver.md
 theme:
    name: material
+   analytics:
+     gtag: G-74EPW6P0FB
    palette:
      - scheme: default
        toggle:
@@ -29,9 +31,19 @@ theme:
 markdown_extensions:
  - tables
  - admonition
+ - smarty
 extra_css:
    - stylesheets/extra.css
 extra:
  analytics:
-   provider: google
-   property: G-74EPW6P0FB
+    feedback:
+    title: Was this page usefull?
+    ratings:
+     - icon: material/thumb-up-outline
+       name: Yes
+       data: 1
+       note: Thanks for your feedback!
+     - icon: material/thumb-down-outline
+       name: No
+       data: 0
+       note: Sorry, to here it.
