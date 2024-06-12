@@ -36,6 +36,8 @@ extra_css:
    - stylesheets/extra.css
 extra:
  analytics:
+    provider: google
+    property: G-74EPW6P0FB
     feedback:
     title: Was this page usefull?
     ratings:
