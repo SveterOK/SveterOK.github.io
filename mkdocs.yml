@@ -1,14 +1,15 @@
 site_name: FIX platform specification
 nav:
- - Home: index.md
+ - index.md
  - Trading messages:
-   - NewOrderSingle: NewOrderSingle.md
-   - ExecutionReport: ExecutionReport.md
-   - CancelRequest: CancelRequest.md
+   - Trading messages/index.md
+   - Trading messages/NewOrderSingle.md
+   - Trading messages/ExecutionReport.md
+   - Trading messages/CancelRequest.md
  - Message components:
-   - Standard header: StandardHeader.md
-   - Repeating groups: RepeatingGroups.md
- - Document changelog: ver.md
+   - Message components/StandardHeader.md
+   - Message components/RepeatingGroups.md
+ - ver.md
 theme:
    name: material
    palette:
@@ -23,9 +24,14 @@ theme:
          name: Switch to light
        primary: teal
    features: 
-    - navigation.tabs
+    - navigation.indexes
+    - navigation.expand
 markdown_extensions:
  - tables
  - admonition
 extra_css:
    - stylesheets/extra.css
+extra:
+ analytics:
+   provider: google
+   property: G-74EPW6P0FB
