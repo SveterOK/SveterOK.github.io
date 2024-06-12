@@ -1,4 +1,4 @@
-site_name: FIX platrom specification
+site_name: FIX platform specification
 nav:
  - Home: index.md
  - Trading messages:

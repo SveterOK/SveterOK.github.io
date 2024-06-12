@@ -14,7 +14,7 @@ This type of message is sent by the system in the following cases:
 
 ## Parameters
 
-Tag| Tag name| Description| Required| Data type
+Tag|  <div style="width:100px">Tag name</div>  |Description| Required| Data type
 ---|---------|------------|---------|----------
  |[Standard Header](StandardHeader.md)| A group of tags that is provided at the beginning of every message sent between the FIX client and the system. For a NewOrderSingle message type, **MsgType**(35 ) = 8.
 37| `OrderID`| A unique identifier allocated by the system for the order whose execution status is being reported.| Y| string

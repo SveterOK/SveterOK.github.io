@@ -3,7 +3,7 @@
 }
 .md-typeset .admonition.exemp,
 .md-typeset details.exemp {
-  border-color: rgb(71, 74, 81);
+  border-color: rgb(71, 74, 81, 0.1);
 }
 .md-typeset .exemp > .admonition-title,
 .md-typeset .exemp > summary {

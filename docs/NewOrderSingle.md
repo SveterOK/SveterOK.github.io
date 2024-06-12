@@ -22,13 +22,13 @@ If the order was executed in parts, then for each executed part the system sends
 
     * one **ExecutionReport** message with `OrdStatus` = 1 (*Partially filled*) to confirm the execution of the order part on one liquidity.
 
-    * one **ExecutionReport** message with `OrdStatus` =  (*Filled*) to confirm execution of the residual order part on the other liquidity.
+    * one **ExecutionReport** message with `OrdStatus` = 2 (*Filled*) to confirm execution of the residual order part on the other liquidity.
 
 ##Parameters
 
-Tag    | Tag name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|   Description | Required| Data type
--------|-------------|------------------|---------|----------
- |[Standard Header](StandardHeader.md)| A group of tags that is provided at the beginning of every message sent between the FIX client and the system. For a NewOrderSingle message type, **MsgType**(35 ) = D.
+|<div style="width:10px">Tag</div>    | <div style="width:100px">Tag name</div>  |   Description | Required| Data type
+|-------|-------------|------------------|---------|----------
+ ||[Standard Header](StandardHeader.md)| A group of tags that is provided at the beginning of every message sent between the FIX client and the system. For a NewOrderSingle message type, **MsgType**(35 ) = D.
 11     |`ClOrdId`     |The order identifier provided by the FIX client.| Y| string
 1     |  `Account`| The FIX platform account who placed the order. If not specified, then the platform default account is used.<br>This value must be specified in **Accounts allowed for session** in the system and belong to a group from **Groups allowed for session** in the system; otherwise, the order is rejected.| N |string
 55| `Symbol` | Fix platform symbol name| Y| string
