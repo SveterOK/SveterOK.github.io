@@ -7,8 +7,8 @@ nav:
    - Trading messages/ExecutionReport.md
    - Trading messages/CancelRequest.md
  - Message components:
-   - Message components/StandardHeader.md
-   - Message components/RepeatingGroups.md
+   - Message_components/StandardHeader.md
+   - Message_components/RepeatingGroups.md
  - ver.md
 theme:
    name: material

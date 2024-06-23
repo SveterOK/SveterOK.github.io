@@ -10,9 +10,9 @@ In response, the system either sends an **ExecutionReport** message with `OrdSta
 
 ##Parameters
 
-Tag| Tag name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Description| Required| Data type
+Tag| <div style="width:100px">Tag name</div>| Description| Required| Data type
 ----|--------|-------------|--------|----------
-|[Standard Header](StandardHeader.md)| A group of tags that is provided at the beginning of every message sent between the FIX client and the system. For a NewOrderSingle message type, **MsgType**(35 ) = F.
+|[Standard Header](../'Message components'/StandardHeader.md)| A group of tags that is provided at the beginning of every message sent between the FIX client and the system. For a NewOrderSingle message type, **MsgType**(35 ) = F.
 41| `OrigClOrdId`| `ClOrdId` of the order to cancel|Y|string
 1|`Account`| Account that attempts to cancel the order.|N|string|
 11|`ClOrdId`| Identified of the CancelRequest message assigned by the FIX client| Y |string

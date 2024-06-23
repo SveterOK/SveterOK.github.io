@@ -16,7 +16,7 @@ This type of message is sent by the system in the following cases:
 
 Tag|  <div style="width:100px">Tag name</div>  |Description| Required| Data type
 ---|---------|------------|---------|----------
- |[Standard Header](StandardHeader.md)| A group of tags that is provided at the beginning of every message sent between the FIX client and the system. For a NewOrderSingle message type, **MsgType**(35 ) = 8.
+ |[Standard Header](../Message_components/StandardHeader.md)| A group of tags that is provided at the beginning of every message sent between the FIX client and the system. For a NewOrderSingle message type, **MsgType**(35 ) = 8.
 37| `OrderID`| A unique identifier allocated by the system for the order whose execution status is being reported.| Y| string
 11|`ClOrdID`| Identifier of the order whose execution status is reported provided be the FIX client. It is `ClOrdId` from the  **NewOrderSingle** message.|N|string
 17|`ExecId`| The unique identifier allocated by the system to the **ExecutionReport** message.|Y|string
