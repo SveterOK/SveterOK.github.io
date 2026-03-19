@@ -5,7 +5,6 @@ nav:
       - Trading messages:
           - Trading messages/index.md
           - Trading messages/NewOrderSingle.md
-          - Trading messages/ExecutionReport.md
           - Trading messages/CancelRequest.md
       - Message compontents:
           - Message_components/StandardHeader.md
