@@ -6,7 +6,7 @@ A **CancelRequest** message is sent by the client to cancel an existing order.
 
 Only orders which current status (`OrdStatus`) is *New* or *PartiallyFilled* can be cancelled.
 
-In response the system sends an **ExecutionReport** message with `OrdStatus` = 4 to confirm the cancellation or an **CancelReject** message to reject the request.
+In response the system sends an **ExecutionReport** message with `OrdStatus` = 4 to confirm the cancellation or a **CancelReject** message to reject the request.
 
 ##Parameters
 
