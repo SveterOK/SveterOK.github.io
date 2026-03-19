@@ -2,12 +2,14 @@ site_name: Portfolio
 nav:
   - index.md
   - FIX API:
-      - Trading messages/index.md
-      - Trading messages/NewOrderSingle.md
-      - Trading messages/ExecutionReport.md
-      - Trading messages/CancelRequest.md
-      - Message_components/StandardHeader.md
-      - Message_components/RepeatingGroups.md
+      - Trading messages:
+          - Trading messages/index.md
+          - Trading messages/NewOrderSingle.md
+          - Trading messages/ExecutionReport.md
+          - Trading messages/CancelRequest.md
+      - Message compontents:
+          - Message_components/StandardHeader.md
+          - Message_components/RepeatingGroups.md
 theme:
   name: material
   analytics:
