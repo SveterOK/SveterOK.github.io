@@ -2,7 +2,7 @@
 
 ##Description
 
-A **NewOrderSingle** message is sent by a FIX client to place a new order.
+A **NewOrderSingle** message is sent by the client to place a new order.
 
 In response the system sends:
 
